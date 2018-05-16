@@ -20,6 +20,7 @@ This is all about definition and schema. No data will be included.
 2. Foreign keys will not be created if the type does not match
 
 ### Example definition blocks
+```
 ADD SEQUENCE "TheSequence"
   INITIAL 1
   INCREMENT 1
@@ -54,3 +55,4 @@ ADD INDEX "OtherKey" ON "T99Table"
   AREA "tableArea"
   INDEX-FIELD "Two" DESCENDING
   INDEX-FIELD "One" ASCENDING
+```
