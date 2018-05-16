@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgressDefinitionToSql", "progress-definition-to-sql\ProgressDefinitionToSql.csproj", "{CCDC0E62-334E-46C9-9399-8CB9829A6294}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressDefinitionToSql.Tests", "ProgressDefinitionToSql.Tests\ProgressDefinitionToSql.Tests.csproj", "{B0210E9C-C205-4663-A7A3-2617D52A919E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDC0E62-334E-46C9-9399-8CB9829A6294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDC0E62-334E-46C9-9399-8CB9829A6294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDC0E62-334E-46C9-9399-8CB9829A6294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDC0E62-334E-46C9-9399-8CB9829A6294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0210E9C-C205-4663-A7A3-2617D52A919E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0210E9C-C205-4663-A7A3-2617D52A919E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0210E9C-C205-4663-A7A3-2617D52A919E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0210E9C-C205-4663-A7A3-2617D52A919E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07F074A5-3437-4758-B992-B0D8739FF57A}
+	EndGlobalSection
+EndGlobal
